@@ -1,8 +1,16 @@
+import Saat from "../src/saat/Saat.jsx";
+import Footer from "./Footer/Footer.js";
+const stil = {
+  color: "pink",
+  textAlign: "center",
+};
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello React</h1>
-      <p>React is a library which is used for UI , it is js library</p>
+    <div >
+      <h1 style={stil}>Welcome to react course</h1>
+      <Saat />
+      <Footer />
     </div>
   );
 }
