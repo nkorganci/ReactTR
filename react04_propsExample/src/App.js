@@ -6,10 +6,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Yorum index="0"/>
-      <Yorum index="1"/>
-      <Yorum index="2"/>
-      <Yorum index="3"/>
+      <div className="container-yorum">
+        <Yorum index="0" />
+        <Yorum index="1" />
+        <Yorum index="2" />
+        <Yorum index="3" />
+      </div>
+
       <Footer />
     </div>
   );

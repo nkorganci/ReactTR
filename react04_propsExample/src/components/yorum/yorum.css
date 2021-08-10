@@ -1,0 +1,12 @@
+.yorum-div {
+  background: wheat;
+  border-radius: 50px;
+  border: 3px solid red;
+  width: 300px;
+  padding: 30px;
+  margin: 20px;
+}
+img {
+  width: 25%;
+  height: 25%;
+}
