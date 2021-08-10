@@ -1,4 +1,9 @@
-body{
+body {
+    background-color: blue;
     text-align: center;
-
-}
+  }
+  .container-yorum {
+    display: flex;
+    justify-content: center;
+  }
+  
