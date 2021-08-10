@@ -10,7 +10,7 @@ import {
 import logo from "./img/logo.png";
 
 // !Lokal resimleri gosterilbilmek icin imporrt yontemiyle eklemek gerekiyor. Aksi taktirde resimler gozukmuyor.
-
+// ! External links work
 function MyNav() {
   return (
     <div>

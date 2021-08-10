@@ -5,6 +5,7 @@ import { Card, Button, Container, Row, Col } from "react-bootstrap";
 function Kart(props) {
   console.log(props);
   const { text, name, img } = data[props.isim];
+  console.log(text, name, img);
 
   return (
     <div>
@@ -19,6 +20,8 @@ function Kart(props) {
     </div>
   );
 }
+
+// If you use Kart module in here, you dont need to export
 
 function Main() {
   return (
