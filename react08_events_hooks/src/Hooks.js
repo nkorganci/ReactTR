@@ -25,15 +25,37 @@ function Hooks() {
 
   //* - Array destructring ile useState'in dondurdukeri ayrıstiriliyor.
   //* - sayac'a (state) baslangicte 0 degeri ataniyor.
+  //!useState: Returns a stateful value, and a function to update it.
 
+  const [sayac, setSayac] = useState(0); // Array destructuring
+  console.log(useState(0));
 
+  function Arttir() {
+    setSayac(sayac + 1);
+    clearInterval(sn);
+  }
 
- 
+  function Azalt() {
+    setSayac(sayac - 1);
+    clearInterval(sn);
+  }
+  function Sifirla() {
+    setSayac(0);
+    clearInterval(sn);
+  }
+
+  // setInterval(Arttir, 10000);
+  // clearInterval(10000);
+  // setTimeout(Azalt,1000);
+
+  const sn = setInterval(Arttir, 1000);
+
   return (
     <div>
-
-    <button>Arttir</button>
-
+      <h1>Sayac:{sayac}</h1>
+      <button onClick={Arttir}>Arttir</button>
+      <button onClick={Azalt}>Azalt</button>
+      <button onClick={Sifirla}>Sifirla</button>
     </div>
   );
 }
