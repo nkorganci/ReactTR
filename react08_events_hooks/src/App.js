@@ -1,12 +1,14 @@
 import ClassComponent from "./ClassComponent";
 import Events from "./Events";
+import HookOrnek from "./HookOrnek";
 import Hooks from "./Hooks";
 
 function App() {
   return (
     <div className="App">
       <Events />
-      <Hooks/>
+      <Hooks />
+      <HookOrnek />
     </div>
   );
 }
