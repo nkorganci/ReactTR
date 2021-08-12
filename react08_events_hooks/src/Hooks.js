@@ -48,7 +48,7 @@ function Hooks() {
   // clearInterval(10000);
   // setTimeout(Azalt,1000);
 
-  const sn = setInterval(Arttir, 1000);
+  const sn = setInterval(Arttir, 10000000);
 
   return (
     <div>
