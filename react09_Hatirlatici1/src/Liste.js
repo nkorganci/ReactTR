@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { isValidElement } from 'react'
 
-function Liste() {
+function Liste(props) {
+  console.log(props.kisiler);
   return (
     <div>
+    {/* const {isim, yas, resim }= kisiler[0] */}
       
     </div>
   )
