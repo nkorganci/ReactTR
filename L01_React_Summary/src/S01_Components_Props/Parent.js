@@ -1,5 +1,7 @@
 import React from "react";
-import Child from "../src/Child.js";
+import Child from "./Child";
+import "./Parent.css"
+
 
 function Parent() {
   return (
@@ -10,4 +12,4 @@ function Parent() {
   );
 }
 
-export default Parent();
+export default Parent;

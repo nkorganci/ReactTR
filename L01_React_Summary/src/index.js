@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Parent from "../src/Parent.js";
+import Parent from "./S01_Components_Props/Parent";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Parent />
+    <Parent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
