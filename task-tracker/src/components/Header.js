@@ -1,11 +1,29 @@
-const Header = () => {
-    return (
-      <header>
+import PropTypes from "prop-types";
 
-      <h1>Task Tracker</h1>
+/* const Header = ({title})  */
+const Header = (props) => {
+  // console.log(props);
+  return (
+    <header>
+      <h1 style={inlineStyle}>{props.title}</h1>
+    </header>
+  );
+};
 
-      </header>
-    )
-}
+//* NOTE-1: We can assign a default props
+Header.defaultProps = {
+  title: "Task Tracker default",
+};
 
-export default Header
+//* NOTE-2 We can decide type of props by importing PropTypes
+Header.propTypes = {
+  title: PropTypes.string,
+};
+
+//* NOTE-3 CSS in JS
+const inlineStyle = {
+  color: "red",
+  backgroundColor: "pink",
+};
+
+export default Header;
