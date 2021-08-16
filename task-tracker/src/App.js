@@ -7,7 +7,7 @@ function App() {
       <h1>Task Tracker</h1>
 
      {/* Number or boolean should be in curly braces*/ }
-      <Header title="From app, Header" />
+      <Header/>
     </div>
   );
 }

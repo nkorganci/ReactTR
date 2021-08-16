@@ -1,16 +1,21 @@
 import PropTypes from "prop-types";
+import Button from "./Button";
 
 /* const Header = ({title})  */
-const Header = (props) => {
+const Header = ({ title }) => {
   // console.log(props);
   return (
-    <header>
-      <h1 style={inlineStyle}>{props.title}</h1>
+    <header className="header">
+      <h1>{title}</h1>
+      <Button color="green" text="Add" />
+      
     </header>
   );
 };
 
-//* NOTE-1: We can assign a default props
+export default Header;
+
+/* //* NOTE-1: We can assign a default props
 Header.defaultProps = {
   title: "Task Tracker default",
 };
@@ -24,6 +29,4 @@ Header.propTypes = {
 const inlineStyle = {
   color: "red",
   backgroundColor: "pink",
-};
-
-export default Header;
+}; */
