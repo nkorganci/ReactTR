@@ -4,10 +4,11 @@ import "./Parent.css"
 
 
 function Parent() {
+  const [word,setWord]=
   return (
     <div className="parent">
       <h1>Parent</h1>
-      <Child/>
+      <Child changeWord={word=> setWord(word)}/>
     </div>
   );
 }
