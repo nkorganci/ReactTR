@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react'
 
 function Mesaj(props) {
-  console.log(props.ad);
   return (
     <div>
-      <h1> My name is : {props.ad}</h1>
+    <h1>First Name:  {props.name} </h1>
     </div>
-  );
+  )
 }
 
 export default Mesaj;

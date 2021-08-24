@@ -1,26 +1,16 @@
-//! props:
-import Mesaj from "../src/Mesaj";
-import Kisi from "./Kisi";
+import React from "react";
+import Mesaj from "./Mesaj";
 
 function App() {
   return (
-    <div className="App">
-      <Mesaj ad="Ahmet" />
-      <Mesaj ad="Mehmet" />
-      <Mesaj ad="Bera" />
+     <div>
+  <Mesaj name="Enver"/>
+  <Mesaj name="Enver1"/>
+  <Mesaj name="Enver2"/>
 
-      <Kisi
-        ad="Bera1"
-        phone="1234"
-        img="https://www.clipartmax.com/png/middle/475-4758153_face-icon-clipart-computer-icons-clip-art-face-icon.png"
-      />
-      <Kisi
-        ad="Enver"
-        phone="1234"
-        img="https://www.clipartmax.com/png/middle/475-4758153_face-icon-clipart-computer-icons-clip-art-face-icon.png"
-      />
-    </div>
-  );
+  </div>
+  )
+ 
 }
 
 export default App;
