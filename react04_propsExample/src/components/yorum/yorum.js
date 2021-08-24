@@ -2,7 +2,7 @@ import React from "react";
 import yorumlar from "./data.js";
 import "./Yorum.css";
 function Yorum(props) {
-  const { ad, meslek, resim, yorum } = yorumlar[props.index];
+  const {ad, meslek, resim, yorum} = yorumlar[props.index]
 
   // console.log(yorumlar[props.index]); we can see values in console
   return (
