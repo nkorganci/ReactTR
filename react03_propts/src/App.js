@@ -10,7 +10,7 @@ function App() {
       <Mesaj ad="Bera" />
 
       <Kisi
-        ad="Bera"
+        ad="Bera1"
         phone="1234"
         img="https://www.clipartmax.com/png/middle/475-4758153_face-icon-clipart-computer-icons-clip-art-face-icon.png"
       />
