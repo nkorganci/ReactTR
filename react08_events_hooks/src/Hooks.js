@@ -1,7 +1,7 @@
 //Hooks are functional components, rfce
 
-import React from "react";
-import { useState } from "react";
+import React,{useState} from "react";
+
 //* =========================== HOOKS =====================================
 //! - Hooklar: Class komponentleri yerine fonksiyonel komponentler ile
 //!   state'leri kullanmamizi saglayan ozel fonksiyonlardır.
@@ -27,6 +27,8 @@ function Hooks() {
   //* - sayac'a (state) baslangicte 0 degeri ataniyor.
   //!useState: Returns a stateful value, and a function to update it.
 
+
+/* 
   const [sayac, setSayac] = useState(0); // Array destructuring
   console.log(useState(0));
 
@@ -61,3 +63,4 @@ function Hooks() {
 }
 
 export default Hooks;
+ */
