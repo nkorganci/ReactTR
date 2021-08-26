@@ -50,31 +50,3 @@ function HookOrnek() {
 }
 
 export default HookOrnek;
-
-/* import React from "react";
-import { useState } from "react";
-
-const HookOrnek = () => {
-    //! 1st Way: writing separately
-  const [isim, setIsim] = useState("Can");
-  const [meslek, setMeslek] = useState("Developer");
-  const [yas, setYas] = useState("23");
-
-  const degistir = function () {
-    setIsim("Ahmet");
-    setMeslek("Nurse");
-    setYas("43");
-  };
-
-  return (
-    <div>
-      <h1>{isim}</h1>
-      <h2>{meslek}</h2>
-      <h2>{yas}</h2>
-      <button onClick={degistir}> Degistir</button>
-    </div>
-  );
-};
-
-export default HookOrnek;
- */
