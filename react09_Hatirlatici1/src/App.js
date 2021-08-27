@@ -7,17 +7,15 @@ function App(){
   function temizle(){
     setKisiler([]);
   }
-}
 
-
-  return (
+    return (
     <main>
       <section className="container">
-      <h2>bugun {kisiler.length} bes dogum gunu bulunmaktatir.</h2>
-      <Liste kisiler={kisiler} />
+      <h2>bugun {kisiler.length}  dogum gunu bulunmaktatir.</h2>
+      <Liste kisi={kisiler} />
       <button onClick={temizle} >Temizle</button>
       </section>
     </main>
   );
-
+}
 export default App;
