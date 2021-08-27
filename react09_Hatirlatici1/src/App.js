@@ -1,24 +1,23 @@
 import React, { useState } from "react";
-import data from "./data.js";
-import Liste from "./Liste.js";
+import data from "./data";
+import Liste from "./Liste";
 
-function App() {
-  const [kisiler, setKisiler] = useState(data);
-  console.log(kisiler);
-
-  function temizle() {
+function App(){
+  const [kisiler,setKisiler] = useState(data);
+  function temizle(){
     setKisiler([]);
   }
+}
+
 
   return (
     <main>
       <section className="container">
-        <h2>bugun {data.length} vardir</h2>
-        <Liste kisiler={kisiler} />
-        <button onClick={temizle}>Temizle</button>
+      <h2>bugun {kisiler.length} bes dogum gunu bulunmaktatir.</h2>
+      <Liste kisiler={kisiler} />
+      <button onClick={temizle} >Temizle</button>
       </section>
     </main>
   );
-}
 
 export default App;
