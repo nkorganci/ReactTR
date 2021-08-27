@@ -7,7 +7,7 @@ import UseEffectFetchTxt from "./UseEffectFetchTxt";
 function App() {
   return (
     <div className="App">
-      {/* <UseEffect01 /> */}
+      <UseEffect01 />
       {/* <UseEffectFetch /> */}
       {/* <UseEffectFetchError /> */}
       {/* <UseEffectAxios /> */}
