@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       {/* <UseEffect01 /> */}
       {/* <UseEffectFetch /> */}
-      <UseEffectFetchError />
-      {/* <UseEffectAxios /> */}
+      {/* <UseEffectFetchError /> */}
+      <UseEffectAxios />
       {/* <UseEffectFetchTxt /> */}
     </div>
   );

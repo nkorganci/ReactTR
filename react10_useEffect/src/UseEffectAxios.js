@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -24,7 +24,7 @@ function UseEffectAxios() {
   };
 
   //?- axios ile post islemi (API veri gonderme) fetch api'ye oranla
-  //?  cok daha kolaydir.
+  //?  cok daha kolaydir. axios json a otomatik ceviriyor.
   useEffect(() => {
     axios
       .post("https://jsonplaceholder.typicode.com/users", yeniKisi)
