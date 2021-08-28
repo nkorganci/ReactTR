@@ -10,15 +10,14 @@ import React, { useState, useEffect } from "react";
 //!   veri cekerken kullanimi yaygindir.
 
 function UseEffect01() {
-  const [sayac, setSayac] = useState();
+  const [sayac, setSayac] = useState(0);
 
   //!- useEffect Hook'u default olarak her render da isletilir.
   //!- Su anki hali componentDidMount() ve bunula beraber
   //!  componentDidUpdate() metodonun birlesimi gibi calisiyor.
- 
-  useEffect(() =>{
-    console.log("Her ve ilk calismada cikar ortya")
-  } )
+  // useEffect(() => {
+  //   console.log("ilk render da ve sayfanin her renderinda calisir.");
+  // });
 
   //!- Eger dependenct listesinde bir degisken kullanilir ise
   //!  bu degisken degistiginde useEffect fonksiyonu calisitirilir.
@@ -46,8 +45,8 @@ function UseEffect01() {
     };
   }, [sayac]);
 
-  function arttir(){
-    setSayac{sayac + 1};
+  function arttir() {
+    setSayac(sayac + 1);
   }
   return (
     <div className="container text-center mt-5">
