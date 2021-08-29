@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       {/* <UseEffect01 /> */}
-      {/* <UseEffectFetch /> */}
+      <UseEffectFetch />
       {/* <UseEffectFetchError /> */}
-      <UseEffectAxios />
+      {/* <UseEffectAxios /> */}
       {/* <UseEffectFetchTxt /> */}
     </div>
   );
