@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       {/* <ConditionalRender /> */}
-      <Form01 />
-      {/* <Form02 /> */}
+      {/* <Form01 /> */}
+      <Form02 />
     </div>
   );
 }
