@@ -7,7 +7,7 @@ const data = [
   },
   {
     id: 2,
-    name: "VUE",
+    name: "asdfVUE",
     text: "Vue Kursumuzda B'dan Z'ye herseyi ogrneceksiniz",
     img: "https://cdn.icon-icons.com/icons2/2415/PNG/512/vuejs_original_wordmark_logo_icon_146305.png",
   },
