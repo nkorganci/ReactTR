@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     name: "REACT",
-    text: "React Kursumuzda A'dan Z'ye herseyi ogrneceksiniz",
+    text: "React Kursumuzda AAAA'dan Z'ye herseyi ogrneceksiniz",
     img: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
   },
   {
