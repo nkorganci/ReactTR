@@ -9,14 +9,14 @@ const Kisi = (props) => {
   // Context'i useContext hook'u ile okuduk.
   const context = useContext(KisilerContext);
 
-  // Okuduğumuz context'teki renkDegistir metodunu destr. yaptık
-  const { renkDegistir } = context;
+  //Okudugumuz context'teki renkDegistir metodunu destructuring yaptik.
+  const{renkDegistir} = context;
 
   return (
     <div style={{ background: renk }}>
       <h3>{isim}</h3>
-      <p>Email: {email}</p>
-      <p>Yas: {yas}</p>
+      <p>Email:{email}</p>
+      <p>Yas: {yas} </p>
       <p>Renk:</p>
       <input
         type="text"
